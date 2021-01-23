@@ -17,13 +17,21 @@ A atividade avaliativa corresponde ao desenvolvimento de jogos, com as regras de
 
 ## 1. O Jogo da Forca 
 O jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra oculta, tendo como dica o número de letras definidas através de um traçado. A cada letra errada é desenhado uma parte do corpo do "enforcado" e a cada letra certa a posição do traço é substituída pela letra. Se o jogador conseguir adivinhar todas as letras da palavra antes de finalizar o desenho do "enforcado" ele ganha o jogo. O trabalho aqui é elaborar um jogo da forca em Java considerando passagem de parâmetro por valor, delegação de responsabilidade para os métodos e implementação correta da estratégia do jogo. Nesse caso utilize métodos para: 
+
 a. Construir a forca e do enforcado 
+
 b. Definir a palavra oculta 
-c. Efetuar a jogada d. Validar a jogada 
+
+c. Efetuar a jogada d. Validar a jogada
+
 e. Efetuar a estratégia 
+
 f. Identificar o vencedor / perdedor 
 
+
 Na figura abaixo, pode-se observar a tela inicial do jogo quando executado.
+
+<img src="/img/jogo-da-forca.PNG">
  
 
 ## 2. O Jogo Batalha Naval 
@@ -36,12 +44,14 @@ d. Validara jogada
 e. Efetuar a estratégia 
 f. Identificar o vencedor / perdedor
 
+<img src="/img/tela-batalha-naval.PNG">
  
 
 ## 3. O Jogo Campo Minado 
 Esse jogo foi inventado por Robert Donner em 1989, para ser jogado por um único jogador, e tem como objetivo revelar as minas distribuídas pelo tabuleiro, evitando que qualquer uma delas seja detonada. Cada quadrado do tabuleiro irá revelar se há uma mina ou não após receber um clique. Se o quadrado selecionado contiver uma mina, então o jogo acaba. Se, por outro lado, o quadrado não contiver uma mina poderá aparecer um valor indicando a quantidade de quadrados adjacentes que contêm minas ou nenhum número aparece. Neste caso, o jogo revela automaticamente os quadrados que se encontram adjacentes ao quadrado vazio, já que não podem conter minas. O jogador vence o jogo quando todos os quadrados que não tem minas forem revelados. (Fonte: httos://pt.wikipedia.org/wiki/Campo minado). 
 Para essa atividade, considere um tabuleiro de tamanho 16 x 16 para ser distribuído as "minas'.
 
+<img src="/img/campo-minado.PNG">
  
 
 ## Item e - Jogo da forca 
